@@ -10,8 +10,10 @@
         <form method="POST">
            <p>Your codes: </p>
             <p><strong>{{code}} </strong></p>
-            <p>The testing results: </p>
-            <p><cite> {{findings}} </cite></p>
+                <div class="bg-secondary text-white">
+                    <p>The testing results: </p>
+                    <p><cite> {{findings}} </cite></p>
+                </div>
             <fieldset class="form-group">
                 {{ form|crispy }}
             </fieldset>

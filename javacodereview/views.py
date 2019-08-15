@@ -39,3 +39,5 @@ def findings(request):
 
 def home(request):
     return render(request, 'javacodereview/home.html')
+
+

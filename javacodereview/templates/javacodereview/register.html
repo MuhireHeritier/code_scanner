@@ -1,20 +1,24 @@
 {% extends "javacodereview/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="content-section">
+    <div class="content-section center">
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-2">Register here, and get chance to review your codes!</legend>
-                {{ form|crispy }}
+                <div class="row">
+                    <div class="col-md-6">
+                        {{ form|crispy }}
+                    </div>
+                </div>
             </fieldset>
             <div class="form-group">
-                <button class="btn btn-outline-info" type="submit">Sign Up</button>
+                <button class="btn btn-outline-primary" type="submit">Sign Up</button>
             </div>
         </form>
         <div class="border-top pt-3">
             <small class="text-muted">
-                Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a>
+                Already Have An Account? <a class="ml-2 text-primary" href="{% url 'login' %}">Sign In</a>
             </small>
         </div>
     </div>

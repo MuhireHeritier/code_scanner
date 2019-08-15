@@ -14,5 +14,6 @@ class UserRegisterForm(UserCreationForm):
 class UploadFileForm(forms.Form):
     file = forms.FileField()
 
+
 class QueryBoxForm(forms.Form):
     queryForm = forms.CharField(widget=forms.Textarea)

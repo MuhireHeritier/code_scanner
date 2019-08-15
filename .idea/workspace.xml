@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5c508b3-43c5-4f39-93f9-bdc09fa00b5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeevaluator/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeevaluator/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacodereview/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacodereview/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javacodereview/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javacodereview/static/javacodereview/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/static/javacodereview/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/findings.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/findings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacodereview/templates/javacodereview/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/javacodereview/templates/javacodereview/upload.html" afterDir="false" />
