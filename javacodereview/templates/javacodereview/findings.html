@@ -1,4 +1,20 @@
 {% extends "javacodereview/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
 {% block content %}
-    {{findings}}
+    </div>
+    <div class="content-section">
+        <h2 class="account-heading">Dear {{ user.username }},
+        <h3>Here is the report of the general findings from the uploaded code: </h3>
+        <hr>
+        <form method="POST">
+           <p>Your codes: </p>
+            <p><strong>{{code}} </strong></p>
+            <p>The testing results: </p>
+            <p><cite> {{findings}} </cite></p>
+            <fieldset class="form-group">
+                {{ form|crispy }}
+            </fieldset>
+        </form>
+    </div>
 {% endblock content %}

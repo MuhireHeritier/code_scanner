@@ -3,6 +3,8 @@
 {% load crispy_forms_tags %}
 {% block content %}
     <div class="content-section">
+        <h2 class="account-heading">Dear {{ user.username }},</h2>
+        <h3>Please insert your codes in the box below for review.</h3>
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">

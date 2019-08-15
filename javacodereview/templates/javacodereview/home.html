@@ -1,12 +1,26 @@
 {% extends "javacodereview/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <div class="col-lg-12">
-        <div class="content-section">
-            <h1>Code Review Homepage!</h1>
-            <p class='text-muted'>You can put any information here you'd like.
-            </p>
-            <p>Code Reviewer application Home</p>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h2 class="card-title">Welcome to the Code Review!</h2>
+            <p class="card-text">The Code Review enables a registered user to upload code snippets or a code file and review all the codes for potentical vulnerabilities and
+                generate a report on specific parts of the codes that are in need of refactoring and any other important comments.</p>
+            <p>Today, you can join a community of other programmers and developers who trusted this application to ease their development process
+            and hence enhance fast performance and robustness. </p>
+            <p>This system is automated, so it scans every line of code with quality, speed, and accuracy. This protytpe was developed using
+            Django- a python based web framework and open source. It provides security that handles the most common web application security flaws
+            such as user authentication, authorization, and cross-site injections. </p>
+            <p class="card-text"><small class="text-muted">Code Reviewer, your first-point code analysis automated tool!</small></p>
+        </div>
+        <img class="card-img-top" src="static/javacodereview/source-code.jpg" alt="Card image cap">
+        <p class="card-text"><small class="text-muted">Code Reviewer, scans your Java codes for vulnerabilities and generate a report.</small></p>
+        <div class="card-body">
+            <h5 class="card-title">Only authenticated users can review their codes. You don't want to miss this. </h5>
+            <p class="card-text"><strong>Disclaimer:</strong> The Code Reviewer is a prototype, so for now it caters for a limited number of vulnerabilities
+                when reviewing your codes. However, as the days go on, the development team is working hard to include all possible Java vulnerabilities
+                to ensure a smooth code analysis. </p>
+            <p class="card-text"><small class="text-muted">Happy Coding!</small></p>
         </div>
     </div>
 {% endblock content %}
